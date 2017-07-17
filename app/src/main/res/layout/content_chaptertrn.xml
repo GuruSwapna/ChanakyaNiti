@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Chaptertrn"
+    tools:showIn="@layout/activity_chaptertrn">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="Chapter Thirteen"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="130dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="
+A man may live but for a moment, but that moment should be spent in doing auspicious deeds. It is useless living even for a kalpa (4,320,000 *1000 years) and bringing only distress upon the two worlds (this world and the next).
+\n\n We should not fret for what is past, nor should we be anxious about the future; men of discernment deal only with the present moment.
+\n\n It certainly is nature of the demigods, men of good character, and parents to be easily pleased. Near and distant relatives are pleased when they are hospitably received with bathing, food, and drink; and pandits are pleased with an opportunity for giving spiritual discourse.
+\n\n
+Even as the unborn babe is in the womb of his mother, these five are fixed as his life destiny: his life span, his activities, his acquisition of wealth and knowledge, and his time of death.
+\n\n O see what a wonder it is! The doings of the great are strange: they treat wealth as light as a straw, yet, when they obtain it, they bend under its weight.
+\n\n He who is overly attached to his family members experiences fear and sorrow, for the root of all grief is attachment. Thus one should discard attachment to be happy.
+\n\n He who is prepared for the future and he who deals cleverly with any situation that may arise are both happy; but the fatalistic man who wholly depends on luck is ruined.
+\n\n
+If the king is virtuous, then the subjects are also virtuous. If the king is sinful, then the subjects also become sinful. If he is mediocre, then the subjects are mediocre. The subjects follow the example of the king. In short, as is the king so are the subjects.
+\n\n I consider him who does not act religiously as dead though living, but he who dies acting religiously unquestionably lives long though he is dead.
+\n\n He who has acquired neither virtue, wealth, satisfaction of desires nor salvation (dharma, artha, kama, moksa), lives an utterly useless life, like the nipples hanging from the neck of a goat.
+[ads-post]
+\n\n He who sheds bodily identification by means of knowledge of the indwelling Supreme Self (Paramatma), will always be absorbed in meditative trance (samadhi) wherever his mind leads him.
+\n\n Who realises all the happiness he desires? Everything is in the hands of God. Therefore one should learn contentment.
+ \n\n As a calf follows its mother among a thousand cows, so the (good or bad) deeds of a man follow him.
+\n\n He whose actions are disorganised has no happiness either in the midst of men or in a jungle -- in the midst of men his heart burns by social contacts, and his helplessness burns him in the forest.
+\n\n As the man who digs obtains underground water by use of a shovel, so the student attains the knowledge possessed by his preceptor through his service.
+\n\n Men reap the fruits of their deeds, and intellects bear the mark of deeds performed in previous lives; even so the wise act after due circumspection.
+\n\n Even the man who has taught the spiritual significance of just one letter ought to be worshiped. He who does not give reverence to such a guru is born as a dog a hundred times, and at last takes birth as a chandala (dog-eater).
+\n\n At the end of the yuga, Mount Meru may be shaken; at the end of the kalpa, the waters of the seven oceans may be disturbed; but a sadhu will never swerve from the spiritual path.
+\n\n There are three gems upon this earth; food, water, and pleasing words -- fools (mudhas) consider pieces of rocks as gems."
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+</RelativeLayout>

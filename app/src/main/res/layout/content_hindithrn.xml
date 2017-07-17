@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Hindithrn"
+    tools:showIn="@layout/activity_hindithrn">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="तेरहवां अध्याय"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="150dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="यदि आदमी एक पल के लिए भी जिए तो भी उस पल को वह शुभ कर्म करने में खर्च करे. एक कल्प तक जी कर कोई लाभ नहीं. दोनों लोक इस लोक और पर-लोक में तकलीफ होती है।
+\n\n हम उसके लिए ना पछताए जो बीत गया. हम भविष्य की चिंता भी ना करे. विवेक बुद्धि रखने वाले लोग केवल वर्तमान में जीते है।
+\n\nयह देवताओ का, संत जनों का और पालको का स्वभाव है की वे जल्दी प्रसन्न हो जाते है. निकट के और दूर के रिश्तेदार तब प्रसन्न होते है जब उनका आदर सम्मान किया जाए. उनके नहाने का, खाने पिने का प्रबंध किया जाए. पंडित जन जब उन्हें अध्यात्मिक सन्देश का मौका दिया जाता है तो प्रसन्न होते है।
+\n\n
+
+जब बच्चा माँ के गर्भ में होता है तो यह पाच बाते तय हो जाती है...
+१. कितनी लम्बी उम्र होगी. २. वह क्या करेगा ३. और ४. कितना धन और ज्ञान अर्जित करेगा. ५. मौत कब होगी.
+\n\n देखिये क्या आश्चर्य है? बड़े लोग अनोखी बाते करते है. वे पैसे को तो तिनके की तरह मामूली समझते है लेकिन जब वे उसे प्राप्त करते है तो उसके भार से और विनम्र होकर झुक जाते है।
+\n\n जो व्यक्ति अपने घर के लोगो से बहोत आसक्ति रखता है वह भय और दुःख को पाता है. आसक्ति ही दुःख का मूल है. जिसे सुखी होना है उसे आसक्ति छोडनी पड़ेगी।
+\n\n जो भविष्य के लिए तैयार है और जो किसी भी परिस्थिति को चतुराई से निपटता है. ये दोनों व्यक्ति सुखी है. लेकिन जो आदमी सिर्फ नसीब के सहारे चलता है वह बर्बाद होता है।
+\n\n
+यदि राजा पुण्यात्मा है तो प्रजा भी वैसी ही होती है. यदि राजा पापी है तो प्रजा भी पापी. यदि वह सामान्य है तो प्रजा सामान्य. प्रजा के सामने राजा का उद्हारण होता है. और वो उसका अनुसरण करती है।
+\n\n मेरी नजरो में वह आदमी मृत है जो जीते जी धर्म का पालन नहीं करता. लेकिन जो धर्म पालन में अपने प्राण दे देता है वह मरने के बाद भी बेशक लम्बा जीता है।
+\n\n जिस व्यक्ति ने न ही कोई ज्ञान संपादन किया, ना ही पैसा कमाया, मुक्ति के लिए जो आवश्यक है उसकी पूर्ति भी नहीं किया. वह एक निहायत बेकार जिंदगी जीता है जैसे के बकरी की गर्दन से झूलने वाले स्तन।
+\n\n जो नीच लोग होते है वो दुसरे की कीर्ति को देखकर जलते है. वो दुसरे के बारे में अपशब्द कहते है क्यों की उनकी कुछ करने की औकात नहीं है।
+\n\n यदि विषय बहुत प्रिय है तो वो बंधन में डालते है. विषय सुख की अनासक्ति से मुक्ति की और गति होती है. इसीलिए मुक्ति या बंधन का मूल मन ही है।
+\n\n जो आत्म स्वरुप का बोध होने से खुद को शारीर नहीं मानता, वह हरदम समाधी में ही रहता है भले ही उसका शरीर कही भी चला जाए।
+\n\n
+
+किस को सब सुख प्राप्त हुए जिसकी कामना की. सब कुछ भगवान् के हाथ में है. इसलिए हमें संतोष में जीना होगा।
+\n\n
+जिस प्रकार एक गाय का बछड़ा, हजारो गायो में अपनी माँ के पीछे चलता है उसी तरह कर्म आदमी के पीछे चलते है।
+\n\n
+जिस के काम करने में कोई व्यवस्था नहीं, उसे कोई सुख नहीं मिल सकता. लोगो के बीच या वन में. लोगो के मिलने से उसका ह्रदय जलता है और वन में तो कोई सुविधा होती ही नहीं।
+\n\n
+यदि आदमी उपकरण का सहारा ले तो गर्भजल से पानी निकाल सकता है. उसी तरह यदि विद्यार्थी अपने गुरु की सेवा करे तो गुरु के पास जो ज्ञान निधि है उसे प्राप्त करता है.
+\n\n हमें अपने कर्म का फल मिलता है. हमारी बुद्धि पर इसके पहले हमने जो कर्म किये है उसका निशान है. इसीलिए जो बुद्धिमान लोग है वो सोच विचार कर कर्म करते है।
+\n\n
+जिस व्यक्ति ने आपको अध्यात्मिक महत्ता का एक अक्षर भी पढाया उसकी पूजा करनी चाहिए. जो ऐसे गुरु का सम्मान नहीं करता वह सौ बार कुत्ते का जन्म लेता है. और आखिर चंडाल बनता है. चांडाल वह है जो कुत्ता खाता है।
+\n\n जब युग का अंत हो जायेगा तो मेरु पर्वत डिग जाएगा. जब कल्प का अंत होगा तो सातों समुद्र का पानी विचलित हो जायगा. लेकिन साधू कभी भी अपने अध्यात्मिक मार्ग से नहीं डिगेगा।
+\n\n इस धरती पर अन्न, जल और मीठे वचन ये असली रत्न है. मूर्खो को लगता है पत्थर के टुकड़े रत्न है."
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+
+</RelativeLayout>

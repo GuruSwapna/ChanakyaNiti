@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Chapternine"
+    tools:showIn="@layout/activity_chapternine">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="Chapter Nine"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="130dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="My dear child, if you desire to be free from the cycle of birth and death, then abandon the objects of sense gratification as poison. Drink instead the nectar of forbearance, upright conduct, mercy, cleanliness and truth.
+\n\n Those base men who speak of the secret faults of others destroy themselves like serpents who stray onto anthills.
+\n\n
+Perhaps nobody has advised Lord Brahma, the creator, to impart perfume to gold; fruit to the sugarcane; flowers to the sandalwood tree; wealth to the learned; and long life to the king.
+\n\n Nectar (amrita) is the best among medicines; eating good food is the best of all types of material happiness; the eye is the chief among all organs; and the head occupies the chief position among all parts of the body.
+\n\n No messenger can travel about in the sky and no tidings come from there. The voice of its inhabitants as never heard, nor can any contact be established with them. Therefore the brahmana who predicts the eclipse of the sun and moon which occur in the sky must be considered as a vidwan (man of great learning).
+\n\n The student, the servant, the traveller, the hungry person, the frightened man, the treasury guard, and the steward: these seven ought to be awakened if they fall asleep.
+\n\n
+The serpent, the king, the tiger, the stinging wasp, the small child, the dog owned by other people, and the fool: these seven ought not to be awakened from sleep.
+[ads-post]
+\n\n Of those who have studied the Vedas for material rewards, and those who accept foodstuffs offered by shudras, what potency have they? They are just like serpents without fangs.
+\n\n He who neither rouses fear by his anger, nor confers a favour when he is pleased can neither control nor protect. What can he do?
+\n\n The serpent may, without being poisonous, raise high its hood, but the show of terror is enough to frighten people -- whether he be venomous or not.
+\n\n Wise men spend their mornings in discussing gambling, the afternoon discussing the activities of women, and the night hearing about the activities of theft. (The first item above refers to the gambling of King Yuddhisthira, the great devotee of Krishna. The second item refers to the glorious deeds of mother Sita, the consort of Lord Ramachandra. The third item hints at the adorable childhood pastimes of Sri Krishna who stole butter from the elderly cowherd ladies of Gokula. Hence Chanakya Pandits advises wise persons to spend the morning absorbed in Mahabharata, the afternoon studying Ramayana, and the evening devotedly hearing the Srimad-Bhagvatam.)
+\n\n
+By preparing a garland for a Deity with one's own hand; by grinding sandal paste for the Lord with one's own hand; and by writing sacred texts with one's own hand -- one becomes blessed with opulence equal to that of Indra.
+\n\n
+Poverty is set off by fortitude; shabby garments by keeping them clean; bad food by warming it; and ugliness by good behaviour."
+
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Chaptereight"
+    tools:showIn="@layout/activity_chaptereight">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="Chapter Eight"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="130dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="Low class men desire wealth; middle class men both wealth and respect; but the noble, honour only; hence honour is the noble man's true wealth.
+\n\n The lamp eats up the darkness and therefore it produces blackened lamp; in the same way according to the nature of our diet (sattva, rajas, or tamas) we produce offspring in similar quality.
+\n\n O wise man! Give your wealth only to the worthy and never to others. The water of the sea received by the clouds is always sweet. The rainwater enlivens all living beings of the earth both movable (insects, animals, humans, etc.) and immovable (plants, trees, etc.), and then returns to the ocean where its value is multiplied a million fold.
+\n\n The wise who discern the essence of things have declared that the yavana (meat eater) is equal in baseness to a thousand candalas (the lowest class), and hence a yavana is the basest of men; indeed there is no one more base.
+\n\n After having rubbed oil on the body, after encountering the smoke from a funeral pyre, after sexual intercourse, and after being shaved, one remains a chandala until he bathes.
+\n\n Water is the medicine for indigestion; it is invigorating when the food that is eaten is well digested; it is like nectar when drunk in the middle of a dinner; and it is like poison when taken at the end of a meal.
+\n\n Knowledge is lost without putting it into practice; a man is lost due to ignorance; an army is lost without a commander; and a woman is lost without a husband.
+\n\n A man who encounters the following three is unfortunate; the death of his wife in his old age, the entrusting of money into the hands of relatives, and depending upon others for food.
+[ads-post]
+\n\n Chanting of the Vedas without making ritualistic sacrifices to the Supreme Lord through the medium of Agni, and sacrifices not followed by bountiful gifts are futile. Perfection can be achieved only through devotion (to the Supreme Lord) for devotion is the basis of all success.
+[ads-post]
+\n\n There is no austerity equal to a balanced mind, and there is no happiness equal to contentment; there is no disease like covetousness, and no virtue like mercy.
+\n\n Anger is a personification of Yama (the demigod of death); thirst is like the hellish river Vaitarani; knowledge is like a kamadhenu (the cow of plenty); and contentment is like Nandanavana (the garden of Indra).
+\n\n Moral excellence is an ornament for personal beauty; righteous conduct, for high birth; success for learning; and proper spending for wealth.
+\n\n Beauty is spoiled by an immoral nature; noble birth by bad conduct; learning, without being perfected; and wealth by not being properly utilised.
+\n\n Water seeping into the earth is pure; and a devoted wife is pure; the king who is the benefactor of his people is pure; and pure is the brahmana who is contented
+\n\n Discontented brahmanas, contented kings, shy prostitutes, and immodest housewives are ruined.
+\n\n Of what avail is a high birth if a person is destitute of scholarship? A man who is of low extraction is honoured even by the demigods if he is learned.
+\n\n A learned man is honoured by the people. A learned man commands respect everywhere for his learning. Indeed, learning is honoured everywhere.
+\n\n Those who are endowed with beauty and youth and who are born of noble families are worthless if they have no learning. They are just like the kimshuka blossoms ( flowers of the palasa tree) which, though beautiful, have no fragrance.
+\n\n The earth is encumbered with the weight of the flesh-eaters, winebibblers, dolts (dull and stupid) and blockheads, who are beasts in the form of men.
+\n\n There is no enemy like a yajna (sacrifice) which consumes the kingdom when not attended by feeding on a large scale; consumes the priest when the chanting is not done properly; and consumes the yajaman (the responsible person) when the gifts are not made."
+
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Chaptertwo"
+    tools:showIn="@layout/activity_chaptertwo">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="Chapter Two"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="140dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="1. Untruthfulness, rashness, guile, stupidity, avarice, uncleanliness and cruelty are a woman's seven natural flaws.
+\n\n 2. To have ability for eating when dishes are ready at hand, to be robust and virile in the company of one's religiously wedded wife, and to have a mind for making charity when one is prosperous are the fruits of no ordinary austerities.
+\n\n 3. He whose son is obedient to him, whose wife's conduct is in accordance with his wishes, and who is content with his riches, has his heaven here on earth.
+\n\n 4. They alone are sons who are devoted to their father. He is a father who supports his sons. He is a friend in whom we can confide, and she only is a wife in whose company the husband feels contented and peaceful.
+\n\n 5. Avoid him who talks sweetly before you but tries to ruin you behind your back, for he is like a pitcher of poison with milk on top.
+\n\n 6. Do not put your trust in a bad companion nor even trust an ordinary friend, for if he should get angry with you, he may bring all your secrets to light.
+\n\n 7. Do not reveal what you have thought upon doing, but by wise counsel keep it secret, being determined to carry it into execution.
+\n\n 8. Foolishness is indeed painful, and verily so is youth, but more painful by far than either is being obliged in another person's house.
+\n\n 9. There does not exist a pearl in every mountain, nor a pearl in the head of every elephant; neither are the sadhus to be found everywhere, nor sandal trees in every forest.
+[Note: Only elephants in royal palaces are seen decorated with pearls (precious stones) on
+their heads].
+\n\n 10. Wise men should always bring up their sons in various moral ways, for children who have knowledge of niti-sastra and are well behaved become a glory to their family.
+\n\n 11. Those parents who do not educate their sons are their enemies; for as is a crane among swans, so are ignorant sons in a public assembly.
+\n\n 12. Many a bad habit is developed through over indulgence, and many a good one by chastisement, therefore beat your son as well as your pupil; never indulge them. (Spare the rod and spoil the child)
+\n\n 13. Let not a single day pass without your learning a verse, half a verse, or a fourth of it, or even one letter of it; nor without attending to charity, study and other pious activity.
+\n\n 14. Separation from the wife, disgrace from one's own people, an enemy saved in battle, service to a wicked king, poverty, and a mismanaged assembly: these six kinds of evils, if afflicting a person, burn him even without fire.
+\n\n 15. Trees on a riverbank, a woman in another man's house, and kings without counselors go without doubt to swift destruction.
+\n\n 16. A brahmin's strength is in his learning, a king's strength is in his army, a vaishya's strength is in his wealth and a shudra's strength is in his attitude of service.
+\n\n 17.  The prostitute has to forsake a man who has no money, the subject a king that cannot defend him, the birds a tree that bears no fruit, and the guests a house after they have finished their meals.
+\n\n 18. Brahmins quit their patrons after receiving alms from them, scholars leave their teachers after receiving education from them, and animals desert a forest that has been burnt down.
+\n\n 19. He who befriends a man whose conduct is vicious, whose vision impure, and who is notoriously crooked, is rapidly ruined.
+\n\n 20. Friendship between equals flourishes, service under a king is respectable, it is good to be business-minded in public dealings, and a handsome lady is safe in her own home."
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Hinditen"
+    tools:showIn="@layout/activity_hinditen">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="दसवां अध्याय"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="150dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="जिसके पास धन नहीं है वो गरीब नहीं है, वह तो असल में रहीस है, यदि उसके पास विद्या है. लेकिन जिसके पास विद्या नहीं है वह तो सब प्रकार से निर्धन है।
+\n\n हम अपना हर कदम फूक फूक कर रखे. हम छाना हुआ जल पिए. हम वही बात बोले जो शास्त्र सम्मत है. हम वही काम करे जिसके बारे हम सावधानीपुर्वक सोच चुके है।
+\n\n जिसे अपने इन्द्रियों की तुष्टि चाहिए, वह विद्या अर्जन करने के सभी विचार भूल जाए. और जिसे ज्ञान चाहिए वह अपने इन्द्रियों की तुष्टि भूल जाये. जो इन्द्रिय विषयों में लगा है उसे ज्ञान कैसा, और जिसे ज्ञान है वह व्यर्थ की इन्द्रिय तुष्टि में लगा रहे यह संभव नहीं।
+\n\n
+वह क्या है जो कवी कल्पना में नहीं आ सकता. वह कौनसी बात है जिसे करने में औरत सक्षम नहीं है. ऐसी कौनसी बकवास है जो दारू पिया हुआ आदमी नहीं करता. ऐसा क्या है जो कौवा नहीं खाता।
+\n\n नियति एक भिखारी को राजा और राजा को भिखारी बनाती है. वह एक अमीर आदमी को गरीब और गरीब को अमीर।
+\n\n भिखारी यह कंजूस आदमी का दुश्मन है. एक अच्छा सलाहकार एक मुर्ख आदमी का शत्रु है.
+वह पत्नी जो पर पुरुष में रूचि रखती है, उसके लिए उसका पति ही उसका शत्रु है.
+जो चोर रात को काम करने निकलता है, चन्द्रमा ही उसका शत्रु है।
+\n\n जिनके पास यह कुछ नहीं है...
+विद्या.
+तप.
+ज्ञान.
+अच्छा स्वभाव.
+गुण.
+दया भाव.
+...वो धरती पर मनुष्य के रूप में घुमने वाले पशु है. धरती पर उनका भार है।
+\n\n जिनके भेजे खाली है, वो कोई उपदेश नहीं समझते. यदि बास को मलय पर्वत पर उगाया जाये तो भी उसमे चन्दन के गुण नहीं आते।
+\n\n जिसे अपनी कोई अकल नहीं उसकी शास्त्र क्या भलाई करेंगे. एक अँधा आदमी आयने का क्या करेगा।
+\n\n एक बुरा आदमी सुधर नहीं सकता. आप पृष्ठ भाग को चाहे जितना साफ़ करे वो श्रेष्ठ भागो की बराबरी नहीं कर सकता.
+[ads-post]
+\n\n १अपने निकट संबंधियों का अपमान करने से जान जाती है.
+दुसरो का अपमान करने से दौलत जाती है.
+राजा का अपमान करने से सब कुछ जाता है.
+एक ब्राह्मण का अपमान करने से कुल का नाश हो जाता है।
+\n\n यह बेहतर है की आप जंगल में एक झाड के नीचे रहे, जहा बाघ और हाथी रहते है, उस जगह रहकर आप फल खाए और जलपान करे, आप घास पर सोये और पुराने पेड़ो की खाले पहने. लेकिन आप अपने सगे संबंधियों में ना रहे यदि आप निर्धन हो गए है।
+\n\n ब्राह्मण एक वृक्ष के समान है. उसकी प्रार्थना ही उसका मूल है. वह जो वेदों का गान करता है वही उसकी शाखाए है. वह जो पुण्य कर्म करता है वही उसके पत्ते है. इसीलिए उसने अपने मूल को बचाना चाहिए. यदि मूल नष्ट हो जाता है तो शाखाये भी ना रहेगी और पत्ते भी।
+\n\n
+लक्ष्मी मेरी माता है. विष्णु मेरे पिता है. वैष्णव जन मेरे सगे सम्बन्धी है. तीनो लोक मेरा देश है.
+\n\n रात्रि के समय कितने ही प्रकार के पंछी वृक्ष पर विश्राम करते है. भोर होते ही सब पंछी दसो दिशाओ में उड़ जाते है. हम क्यों भला दुःख करे यदि हमारे अपने हमें छोड़कर चले गए।
+\n\n जिसके पास में विद्या है वह शक्तिशाली है. निर्बुद्ध पुरुष के पास क्या शक्ति हो सकती है? एक छोटा खरगोश भी चतुराई से मदमस्त हाथी को तालाब में गिरा देता है।
+\n\n
+हे विश्वम्भर तू सबका पालन करता है. मै मेरे गुजारे की क्यों चिंता करू जब मेरा मन तेरी महिमा गाने में लगा हुआ है. आपके अनुग्रह के बिना एक माता की छाती से दूध नहीं बह सकता और शिशु का पालन नहीं हो सकता. मै हरदम यही सोचता हुआ, हे यदु वंशियो के प्रभु, हे लक्ष्मी पति, मेरा पूरा समय आपकी ही चरण सेवा में खर्च करता हू।"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+
+</RelativeLayout>

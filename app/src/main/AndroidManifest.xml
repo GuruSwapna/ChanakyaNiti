@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.enchanterswapna.chanakyaniti">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Chapterone"
+            android:label="@string/title_activity_chapterone"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindiact"
+            android:label="@string/title_activity_hindiact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindione"
+            android:label="@string/title_activity_hindione"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chaptertwo"
+            android:label="@string/title_activity_chaptertwo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapterthree"
+            android:label="@string/title_activity_chapterthree"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hinditwo"
+            android:label="@string/title_activity_hinditwo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindithree"
+            android:label="@string/title_activity_hindithree"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapterfour"
+            android:label="@string/title_activity_chapterfour"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapterfive"
+            android:label="@string/title_activity_chapterfive"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chaptersix"
+            android:label="@string/title_activity_chaptersix"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapterseven"
+            android:label="@string/title_activity_chapterseven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chaptereight"
+            android:label="@string/title_activity_chaptereight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapternine"
+            android:label="@string/title_activity_chapternine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapterten"
+            android:label="@string/title_activity_chapterten"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chaptereleven"
+            android:label="@string/title_activity_chaptereleven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chaptertwelve"
+            android:label="@string/title_activity_chaptertwelve"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chaptertrn"
+            android:label="@string/title_activity_chaptertrn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapterfrtn"
+            android:label="@string/title_activity_chapterfrtn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapterfftn"
+            android:label="@string/title_activity_chapterfftn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindifour"
+            android:label="@string/title_activity_hindifour"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindifive"
+            android:label="@string/title_activity_hindifive"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindisix"
+            android:label="@string/title_activity_hindisix"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindiseven"
+            android:label="@string/title_activity_hindiseven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindieight"
+            android:label="@string/title_activity_hindieight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindinine"
+            android:label="@string/title_activity_hindinine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hinditen"
+            android:label="@string/title_activity_hinditen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindieleven"
+            android:label="@string/title_activity_hindieleven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hinditwelve"
+            android:label="@string/title_activity_hinditwelve"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindithrn"
+            android:label="@string/title_activity_hindithrn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindifrtn"
+            android:label="@string/title_activity_hindifrtn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hindifftn"
+            android:label="@string/title_activity_hindifftn"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">ChanakyaNiti</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="sports_array">
+        <item>Chapter One</item>
+        <item>Chapter Two</item>
+        <item>Chapter Three</item>
+        <item>Chapter Four</item>
+        <item>Chapter Five</item>
+        <item>Chapter Six</item>
+        <item>Chapter Seven</item>
+        <item>Chapter Eight</item>
+        <item>Chapter Nine</item>
+        <item>Chapter Ten</item>
+        <item>Chapter Eleven</item>
+        <item>Chapter Twelve</item>
+        <item>Chapter Thirteen</item>
+        <item>Chapter Fourteen</item>
+        <item>Chapter Fifteen</item>
+    </string-array>
+    <string name="title_activity_chapterone"></string>
+    <string name="title_activity_hindiact"></string>
+
+    <string-array name="sports_array1">
+        <item>प्रथम अध्याय</item>
+        <item>द्वितीया अध्याय</item>
+        <item>तीसरा अध्याय</item>
+        <item>चौथा अध्याय</item>
+        <item>पांचवां अध्याय</item>
+        <item>छठावां अध्याय</item>
+        <item>सातवां अध्याय</item>
+        <item>आठवां अध्याय</item>
+        <item>नौवाँ अध्याय</item>
+        <item>दसवां अध्याय</item>
+        <item>ग्यारहवां अध्याय</item>
+        <item>बारहवां अध्याय</item>
+        <item>तेरहवां अध्याय</item>
+        <item>चौदहवां अध्याय</item>
+        <item>पंद्रहवां अध्याय</item>
+    </string-array>
+    <string name="title_activity_hindione"></string>
+    <string name="title_activity_chaptertwo"></string>
+    <string name="title_activity_chapterthree"></string>
+    <string name="title_activity_hinditwo"></string>
+    <string name="title_activity_hindithree"></string>
+    <string name="title_activity_chapterfour"></string>
+    <string name="title_activity_chapterfive"></string>
+    <string name="title_activity_chaptersix"></string>
+    <string name="title_activity_chapterseven"></string>
+    <string name="title_activity_chaptereight"></string>
+    <string name="title_activity_chapternine"></string>
+    <string name="title_activity_chapterten"></string>
+    <string name="title_activity_chaptereleven"></string>
+    <string name="title_activity_chaptertwelve"></string>
+    <string name="title_activity_chaptertrn"></string>
+    <string name="title_activity_chapterfrtn"></string>
+    <string name="title_activity_chapterfftn"></string>
+    <string name="title_activity_hindifour"></string>
+    <string name="title_activity_hindifive"></string>
+    <string name="title_activity_hindisix"></string>
+    <string name="title_activity_hindiseven"></string>
+    <string name="title_activity_hindieight"></string>
+    <string name="title_activity_hindinine"></string>
+    <string name="title_activity_hinditen"></string>
+    <string name="title_activity_hindieleven"></string>
+    <string name="title_activity_hinditwelve"></string>
+    <string name="title_activity_hindithrn"></string>
+    <string name="title_activity_hindifrtn"></string>
+    <string name="title_activity_hindifftn"></string>
+
+</resources>

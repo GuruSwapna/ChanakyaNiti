@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Chapterfour"
+    tools:showIn="@layout/activity_chapterfour">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="Chapter Four"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="130dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="1. These five: the life span, the type of work, wealth, learning and the time of one's death
+are determined while one is in the womb.
+\n\n 2. Offspring, friends and relatives flee from a devotee of the Lord: yet those who follow him bring merit to their families through their devotion.
+\n\n 3. Fish, tortoises, and birds bring up their young by means of sight, attention and touch; so do saintly men afford protection to their associates by the same means.
+\n\n 4. As long as your body is healthy and under control and death is distant, try to save your soul; when death is imminent what can you do?
+\n\n 5. Learning is like a cow of desire. It, like her, yields in all seasons. Like a mother, it feeds you on your journey. Therefore learning is a hidden treasure.
+\n\n 6. A single son endowed with good qualities is far better than a hundred devoid of them. For the moon, though one, dispels the darkness, which the stars, though numerous, cannot.
+\n\n 7. A stillborn son is superior to a foolish son endowed with a long life. The first causes grief for but a moment while the latter like a blazing fire consumes his parents in grief for life.
+\n\n 8. Residing in a small village devoid of proper living facilities, serving a person born of a low family, unwholesome food, a frowning wife, a foolish son, and a widowed daughter burn the body without fire.
+\n\n 9. What good is a cow that neither gives milk nor conceives? Similarly, what is the value of the birth of a son if he becomes neither learned nor a pure devotee of the Lord?
+[ads-post]
+\n\n 10. When one is consumed by the sorrows of life, three things give him relief: offspring, a wife, and the company of the Lord's devotees.
+\n\n 11. Kings speak for once, men of learning once, and the daughter is given in marriage once. All these things happen once and only once.
+\n\n 12. Religious austerities should be practiced alone, study by two, and singing by three. A journey should be undertaken by four, agriculture by five, and war by many together.
+\n\n 13. She is a true wife who is clean (suci), expert, chaste, pleasing to the husband, and truthful.
+\n\n 14. The house of a childless person is a void, all directions are void to one who has no relatives, the heart of a fool is also void, but to a poverty-stricken man all is void.
+\n\n 15. Scriptural lessons not put into practice are poison; a meal is poison to him who suffers from indigestion; a social gathering is poison to a poverty-stricken person; and a young wife is poison to an aged man.
+\n\n 16. That man who is without religion and mercy should be rejected. A guru without spiritual knowledge should be rejected. The wife with an offensive face should be given up, and so should relatives who are without affection.
+\n\n 17. Constant travel brings old age upon a man; a horse becomes old by being constantly tied up; lack of sexual contact with her husband brings old age upon a woman; and garments become old through being left in the sun.
+\n\n 18. Consider again and again the following: the right time, the right friends, the right place, the right means of income, the right ways of spending, and from whom you derive your power.
+\n\n 19. For the twice born the fire (Agni) is a representative of God. The Supreme Lord resides in the heart of His devotees. Those of average intelligence (alpa-buddhi or kanista-adhikari) see God only in His sri-murti, but those of broad vision see the Supreme Lord everywhere."
+
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+
+</RelativeLayout>

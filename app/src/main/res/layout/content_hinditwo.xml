@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Hinditwo"
+    tools:showIn="@layout/activity_hinditwo">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="द्वितीया अध्याय"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="150dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="१. झूठ बोलना, कठोरता, छल करना, बेवकूफी करना, लालच, अपवित्रता  और निर्दयता ये औरतो के कुछ नैसर्गिक दुर्गुण है।
+\n\n २. भोजन के योग्य पदार्थ और भोजन करने की क्षमता, सुन्दर स्त्री और उसे भोगने के लिए काम शक्ति, पर्याप्त धनराशी तथा दान देने की भावना - ऐसे संयोगों का होना सामान्य तप का फल नहीं है।
+\n\n ३. उस व्यक्ति ने धरती पर ही स्वर्ग को पा लिया :
+१. जिसका पुत्र आज्ञांकारी है,
+२. जिसकी पत्नी उसकी इच्छा के अनुरूप व्यव्हार करती है,
+३. जिसे अपने धन पर संतोष  है।
+\n\n
+४. पुत्र वही है जो पिता का कहना मानता हो, पिता वही है जो पुत्रों का पालन-पोषण करे, मित्र वही है जिस पर आप विश्वास कर सकते हों और पत्नी वही है जिससे सुख प्राप्त हो।
+\n\n ५. ऐसे लोगों से बचे जो आपके मुह पर तो मीठी बातें करते हैं, लेकिन आपके पीठ पीछे आपको बर्बाद करने की योजना बनाते है, ऐसा करने वाले तो उस विष के घड़े के समान है जिसकी उपरी सतह दूध से भरी है।
+\n\n ६. एक बुरे मित्र पर तो कभी विश्वास ना करे। एक अच्छे मित्र पर भी विश्वास ना करें। क्यूंकि यदि ऐसे लोग आपसे रुष्ट होते है तो आप के सभी राज से पर्दा खोल देंगे।
+\n\n ७. मन में सोंचे हुए कार्य को किसी के सामने प्रकट न करें बल्कि मनन पूर्वक उसकी सुरक्षा करते हुए उसे कार्य में परिणत कर दें।
+\n\n ८. मुर्खता दुखदायी है, जवानी भी दुखदायी है,लेकिन इन सबसे कहीं ज्यादा दुखदायी किसी दुसरे के घर जाकर उसका अहसान लेना है।
+\n\n ९. हर पर्वत पर माणिक्य नहीं होते,  हर हाथी के सर पर मणी नहीं होता, सज्जन पुरुष भी हर जगह नहीं होते और हर वन मे चन्दन के वृक्ष भी नहीं होते हैं।
+\n\n १०. बुद्धिमान पिता को अपने पुत्रों को शुभ गुणों की सीख देनी चाहिए क्योंकि नीतिज्ञ और ज्ञानी व्यक्तियों की ही कुल में पूजा होती है।
+\n\n ११. जो माता व् पिता अपने बच्चों को शिक्षा नहीं देते है वो तो बच्चों के शत्रु के सामान हैं। क्योंकि वे विद्याहीन बालक विद्वानों की सभा में वैसे ही तिरस्कृत किये जाते हैं जैसे हंसो की सभा मे बगुले।
+\n\n १२. लाड-प्यार से बच्चों मे गलत आदते ढलती है, उन्हें कड़ी शिक्षा देने से वे अच्छी आदते सीखते है, इसलिए बच्चों को जरुरत पड़ने पर दण्डित करें, ज्यादा लाड ना करें।
+\n\n १३. ऐसा एक भी दिन नहीं जाना चाहिए जब आपने एक श्लोक, आधा श्लोक, चौथाई श्लोक, या श्लोक का केवल एक अक्षर नहीं सीखा, या आपने दान, अभ्यास या कोई पवित्र कार्य नहीं किया।
+\n\n
+१४ . पत्नी का वियोग होना, आपने ही लोगो से बे-इजजत होना, बचा हुआ ऋण, दुष्ट राजा की सेवा करना, गरीबी एवं दरिद्रों की सभा - ये छह बातें शरीर को बिना अग्नि के ही जला देती हैं।
+\n\n १५. नदी के किनारे वाले वृक्ष, दुसरे व्यक्ति के घर मे जाने अथवा रहने वाली स्त्री एवं बिना मंत्रियों का राजा - ये सब निश्चय ही शीघ्र नस्ट हो जाते हैं।
+\n\n १६. एक ब्राह्मण का बल तेज और विद्या है, एक राजा का बल उसकी सेना मे है, एक वैशय का बल उसकी दौलत मे है तथा एक शुद्र का बल उसकी सेवा परायणता मे है।
+\n\n
+१७ .  वेश्या को निर्धन व्यक्ति को  त्याग देना चाहिए, प्रजा को पराजित राजा को त्याग देना चाहिए, पक्षियों को फलरहित वृक्ष त्याग देना चाहिए एवं अतिथियों को भोजन करने के पश्चात् मेजबान के घर से निकल देना चाहिए।
+\n\n १८. ब्राह्मण दक्षिणा मिलने के पश्चात् आपने यजमानो को छोड़ देते है, विद्वान विद्या प्राप्ति के बाद गुरु को छोड़ जाते हैं और पशु जले हुए वन को त्याग देते हैं।
+\n\n १९. जो व्यक्ति दुराचारी, कुदृष्टि वाले, एवं बुरे स्थान पर रहने वाले मनुष्य के साथ मित्रता करता है, वह शीघ्र नष्ट हो जाता है।
+\n\n २०. प्रेम और मित्रता बराबर वालों में अच्छी लगती है, राजा के यहाँ नौकरी करने वाले को ही सम्मान मिलता है, व्यवसायों में वाणिज्य सबसे अच्छा है, अवं उत्तम गुणों वाली स्त्री अपने घर में सुरक्षित रहती है।"
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+</RelativeLayout>

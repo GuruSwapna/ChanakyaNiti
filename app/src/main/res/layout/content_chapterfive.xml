@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Chapterfive"
+    tools:showIn="@layout/activity_chapterfive">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="Chapter Five"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="130dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="1. Agni is the worshipable person for the twice born; the brahmana for the other castes; the husband for the wife; and the guest who comes for food at the midday meal for all.
+\n\n 2. As gold is tested in four ways by rubbing, cutting, heating and beating -- so a man should be tested by these four things: his renunciation, his conduct, his qualities and his actions.
+\n\n 3. A thing may be dreaded as long as it has not overtaken you, but once it has come upon you, try to get rid of it without hesitation.
+\n\n 4. Though persons be born from the same womb and under the same stars, they do not become alike in disposition as the thousand fruits of the badari tree.
+\n\n 5. He whose hands are clean does not like to hold an office; he who desires nothing cares not for bodily decorations; he who is only partially educated cannot speak agreeably; and he who speaks out plainly cannot be a deceiver.
+\n\n 6. The learned are envied by the foolish; rich men by the poor; chaste women by adulteresses; and beautiful ladies by ugly ones.
+\n\n 7. Indolent application ruins study; money is lost when entrusted to others; a farmer who sows his seed sparsely is ruined; and an army is lost for want of a commander.
+\n\n 8. Learning is retained through putting into practice; family prestige is maintained through good behavior; a respectable person is recognized by his excellent qualities; and anger is seen in the eyes.
+\n\n 9. Religion is preserved by wealth; knowledge by diligent practice; a king by conciliatory words; and a home by a dutiful housewife.
+\n\n 10. Those who blaspheme Vedic wisdom, who ridicule the life style recommended in the satras, and who deride men of peaceful temperament, come to grief unnecessarily.
+\n\n 11. Charity puts and end to poverty; righteous conduct to misery; discretion to ignorance; and scrutiny to fear.
+[ads-post]
+\n\n12. There is no disease (so destructive) as lust; no enemy like infatuation; no fire like wrath; and no happiness like spiritual knowledge.
+\n\n 13. A man is born alone and dies alone; and he experiences the good and bad consequences of his karma alone; and he goes alone to hell or the Supreme abode.
+\n\n 14. Heaven is but a straw to him who knows spiritual life (Krsna consciousness); so is life to a valiant man; a woman to him who has subdued his senses; and the universe to him who is without attachment for the world.
+\n\n 15. Learning is a friend on the journey; a wife in the house; medicine in sickness; and religious merit is the only friend after death.
+\n\n 16. Rain which falls upon the sea is useless; so is food for one who is satiated; in vain is a gift for one who is wealthy; and a burning lamp during the daytime is useless.
+\n\n 17. There is no water like rainwater; no strength like one's own; no light like that of the eyes; and no wealth more dear than food grain.
+\n\n 18. The poor wish for wealth; animals for the faculty of speech; men wish for heaven; and godly persons for liberation.
+\n\n 19. The earth is supported by the power of truth; it is the power of truth that makes the sunshine and the winds blow; indeed all things rest upon truth.
+\n\n 20. The Goddess of wealth is unsteady (chanchala), and so is the life breath. The duration of life is uncertain, and the place of habitation is uncertain; but in all this inconsistent world religious merit alone is immovable.
+\n\n 21. Among men the barber is cunning; among birds the crow; among beasts the jackal; and among women, the malin (flower girl).
+\n\n These five are your fathers; he who gave you birth, girdled you with sacred thread, teaches you, provides you with food, and protects you from fearful situations.
+\n\n These five should be considered as mothers; the king's wife, the preceptor's wife, the friend's wife, your wife's mother, and your own mother."
+
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+</RelativeLayout>

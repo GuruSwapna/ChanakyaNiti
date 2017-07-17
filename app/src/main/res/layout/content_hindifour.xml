@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Hindifour"
+    tools:showIn="@layout/activity_hindifour">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="चौथा अध्याय"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="150dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="निम्नलिखित बातें माता के गर्भ में ही निश्चित हो जाती है....
+                \n\n१.  व्यक्ति कितने साल जियेगा २. वह किस प्रकार का काम करेगा ३. उसके पास कितनी संपत्ति होगी ४. उसकी मृत्यु कब होगी ।
+\n\n २. पुत्र , मित्र, सगे सम्बन्धी साधुओं को देखकर दूर भागते है, लेकिन जो लोग साधुओं का अनुशरण करते है उनमे भक्ति जागृत होती है और उनके उस पुण्य से उनका सारा कुल धन्य हो जाता है ।
+\n\n ३. जैसे मछली दृष्टी से, कछुआ ध्यान देकर और पंछी स्पर्श करके अपने बच्चो को पालते है, वैसे ही संतजन पुरुषों की संगती मनुष्य का पालन पोषण करती है।
+\n\n
+४. जब आपका शरीर स्वस्थ है और आपके नियंत्रण में है उसी समय आत्मसाक्षात्कार का उपाय कर लेना चाहिए क्योंकि मृत्यु हो जाने के बाद कोई कुछ नहीं कर सकता है।
+\n\n ५. विद्या अर्जन करना यह एक कामधेनु के समान है जो हर मौसम में अमृत प्रदान करती है. वह विदेश में  माता के समान रक्षक अवं हितकारी होती है. इसीलिए विद्या को एक गुप्त धन कहा जाता है।
+\n\n ६. सैकड़ों गुणरहित पुत्रों से अच्छा एक गुणी पुत्र है क्योंकि एक चन्द्रमा ही रात्रि के अन्धकार को भगाता है, असंख्य तारे यह काम नहीं करते।
+\n\n ७. एक ऐसा बालक जो जन्मते वक़्त मृत था, एक मुर्ख दीर्घायु बालक से बेहतर है. पहला बालक तो एक क्षण के लिए दुःख देता है, दूसरा बालक उसके माँ बाप को जिंदगी भर दुःख की अग्नि में जलाता है।
+\n\n ८. निम्नलिखित बाते व्यक्ति को बिना आग के ही जलाती है...
+१. एक छोटे गाव में बसना जहा रहने की सुविधाए उपलब्ध नहीं.
+२. एक ऐसे व्यक्ति के यहाँ नौकरी करना जो नीच कुल में पैदा हुआ है.
+३. अस्वास्थय्वर्धक भोजन का सेवन करना.
+४. जिसकी पत्नी हरदम गुस्से में होती है.
+५. जिसको मुर्ख पुत्र है.
+६. जिसकी पुत्री विधवा हो गयी है।
+\n\n ९. वह गाय किस काम की जो ना तो दूध देती है ना तो बच्चे को जन्म देती है. उसी प्रकार उस बच्चे का जन्म किस काम का जो ना ही विद्वान हुआ ना ही भगवान् का भक्त हुआ।
+\n\n १०. जब व्यक्ति जीवन के दुःख से झुलसता है उसे निम्नलिखित ही सहारा देते है...
+१. पुत्र और पुत्री २. पत्नी ३. भगवान् के भक्त।
+\n\n ११. यह बाते एक बार ही होनी चाहिए..
+१. राजा का बोलना.
+२. बिद्वान व्यक्ति का बोलना.
+३. लड़की का ब्याहना।
+\n\n १२.जब आप तप करते है तो अकेले करे.
+अभ्यास करते है तो दुसरे के साथ करे.
+गायन करते है तो तीन लोग करे.
+कृषि चार लोग करे.
+युद्ध अनेक लोग मिलकर करे।
+\n\n १३. वही अच्छी पत्नी है जो शुचिपूर्ण है, पारंगत है, शुद्ध है, पति को प्रसन्न करने वाली है और सत्यवादी है।
+\n\n
+१४ . जिस व्यक्ति के पुत्र नहीं है उसका घर उजाड़ है. जिसे कोई सम्बन्धी नहीं है उसकी सभी दिशाए उजाड़ है. मुर्ख व्यक्ति का ह्रदय उजाड़ है. निर्धन व्यक्ति का सब कुछ उजाड़ है।
+\n\n १५. जिस अध्यात्मिक सीख का आचरण नहीं किया जाता वह जहर है. जिसका पेट ख़राब है उसके लिए भोजन जहर है. निर्धन व्यक्ति के लिए लोगो का किसी सामाजिक या व्यक्तिगत कार्यक्रम में एकत्र होना जहर है।
+\n\n १६. जिस व्यक्ति के पास धर्म और दया नहीं है उसे दूर करो. जिस गुरु के पास अध्यात्मिक ज्ञान नहीं है उसे दूर करो. जिस पत्नी के चेहरे पर हरदम घृणा है उसे दूर करो. जिन रिश्तेदारों के पास प्रेम नहीं उन्हें दूर करो।
+\n\n
+१७ . सतत भ्रमण करना व्यक्ति को बूढ़ा बना देता है. यदि घोड़े को हरदम बांध कर रखते है तो वह बूढा हो जाता है. यदि स्त्री उसके पति के साथ प्रणय नहीं करती हो तो बुढी हो जाती है. धुप में रखने से कपडे पुराने हो जाते है।
+\n\n १८. इन बातो को बार बार गौर करे...
+सही समय
+सही मित्र
+सही ठिकाना
+पैसे कमाने के सही साधन
+पैसे खर्चा करने के सही तरीके
+आपके उर्जा स्रोत।
+\n\n १९. द्विज अग्नि में भगवान् देखते है.
+भक्तो के ह्रदय में परमात्मा का वास होता है.
+जो अल्प मति के लोग है वो मूर्ति में भगवान् देखते है.
+लेकिन जो व्यापक दृष्टी रखने वाले लोग है, वो यह जानते है की भगवान सर्व व्यापी है।"
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+</RelativeLayout>

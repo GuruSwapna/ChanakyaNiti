@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Chaptersix"
+    tools:showIn="@layout/activity_chaptersix">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="Chapter Six"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="130dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="1. By means of hearing one understands dharma, malignity vanishes, knowledge is acquired, and liberation from material bondage is gained.
+\n\n 2. Among birds the crow is vile; among beasts the dog; the ascetic whose sins is abominable, but he who blasphemes others is the worst chandala.
+\n\n 3. Brass is polished by ashes; copper is cleaned by tamarind; a woman, by her menses; and a river by its flow.
+\n\n 4. The king, the brahmana, and the ascetic yogi who go abroad are respected; but the woman who wanders is utterly ruined.
+\n\n 5. He who has wealth has friends. He who is wealthy has relatives. The rich one alone is called a man, and the affluent alone are respected as pandits.
+\n\n 6. As is the desire of Providence, so functions one's intellect; one's activities are also controlled by Providence; and by the will of Providence one is surrounded by helpers.
+\n\n 7. Time perfects all living beings as well as kills them; it alone is awake when all others are asleep. Time is insurmountable.
+\n\n 8. Those born blind cannot see; similarly blind are those in the grip of lust. Proud men have no perception of evil; and those bent on acquiring riches see no sin in their actions.
+\n\n 9. The spirit soul goes through his own course of karma and he himself suffers the good and bad results thereby accrued. By his own actions he entangles himself in samsara, and by his own efforts he extricates himself.
+\n\n 10. The king is obliged to accept the sins of his subjects; the purohit (priest) suffers for those of the king; a husband suffers for those of his wife; and the guru suffers for those of his pupils.
+[ads-post]
+\n\n 11. A father who is a chronic debtor, an adulterous mother, a beautiful wife, and an unlearned son are enemies ( in one's own home).
+[ads-post]
+\n\n 12. Conciliate a covetous man by means of a gift, an obstinate man with folded hands in salutation, a fool by humouring him, and a learned man by truthful words.
+ \n\n 13. What is too heavy for the strong and what place is too distant for those who put forth effort? What country is foreign to a man of true learning? Who can be inimical to one who speaks pleasingly?
+\n\n 14. It is better to be without a kingdom than to rule over a petty one; better to be without a friend than to befriend a rascal; better to be without a disciple than to have a stupid one; and better to be without a wife than to have a bad one.
+\n\n 15. How can people be made happy in a petty kingdom? What peace can we expect from a rascal friend? What happiness can we have at home in the company of a bad wife? How can renown be gained by instructing an unworthy disciple?
+\n\n 16. Learn one thing from a lion; one from a crane; four a cock; five from a crow; six from a dog; and three from an ass.
+\n\n 17. The one excellent thing that can be learned from a lion is that whatever a man intends doing should be done by him with a whole-hearted and strenuous effort.
+\n\n 18. The wise man should restrain his senses like the crane and accomplish his purpose with due knowledge of his place, time and ability.
+\n\n 19. To wake at the proper time; to take a bold stand and fight; to make a fair division (of property) among relations; and to earn one's own bread by personal exertion are the four excellent things to be learned from a cock.
+\n\n 20. Union in privacy (with one's wife); boldness; storing away useful items; watchfulness; and not easily trusting others; these five things are to be learned from a crow.
+\n\n 21. Contentment with little or nothing to eat although one may have a great appetite; to awaken instantly although one may be in a deep slumber; unflinching devotion to the master; and bravery; these six qualities should be learned from the dog.
+\n\n Although an ass is tired, he continues to carry his burden; he is unmindful of cold and heat; and he is always contented; these three things should be learned from the ass.
+\n\n He who shall practice these twenty virtues shall become invincible in all his undertakings."
+
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+</RelativeLayout>

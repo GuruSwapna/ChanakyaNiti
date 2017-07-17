@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Chapterfrtn"
+    tools:showIn="@layout/activity_chapterfrtn">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="Chapter Fourteen"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="130dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="
+Poverty, disease, sorrow, imprisonment and other evils are the fruits borne by the tree of one's own sins.
+\n\n Wealth, a friend, a wife, and a kingdom may be regained; but this body when lost may never be acquired again.
+\n\n The enemy can be overcome by the union of large numbers, just as grass through its collectiveness wards off erosion caused by heavy rainfall.
+\n\n
+Oil on water, a secret communicated to a base man, a gift given to a worthy receiver, and scriptural instruction given to an intelligent man spread out by virtue of their nature.
+\n\n
+If men should always retain the state of mind they experience when hearing religious instruction, when present at a crematorium ground, and when in sickness -- then who could not attain liberation.
+[ads-post]
+\n\n
+If a man should feel before, as he feels after, repentance -- then who would not attain perfection?
+\n\n We should not feel pride in our charity, austerity, valour, scriptural knowledge, modesty and morality for the world is full of the rarest gems.
+\n\n He who lives in our mind is near though he may actually be far away; but he who is not in our heart is far though he may really be nearby.
+\n\n We should always speak what would please the man of whom we expect a favour, like the hunter who sings sweetly when he desires to shoot a deer.
+\n\n It is ruinous to be familiar with the king, fire, the religious preceptor, and a woman. To be altogether indifferent of them is to be deprived of the opportunity to benefit ourselves, hence our association with them must be from a safe distance.
+\n\n We should always deal cautiously with fire, water, women, foolish people, serpents, and members of a royal family; for they may, when the occasion presents itself, at once bring about our death.
+\n\n He should be considered to be living who is virtuous and pious, but the life of a man who is destitute of religion and virtues is void of any blessing.
+ \n\n If you wish to gain control of the world by the performance of a single deed, then keep the following fifteen, which are prone to wander here and there, from getting the upper hand of you: the five sense objects (objects of sight, sound, smell, taste, and touch); the five sense organs (ears, eyes, nose, tongue and skin) and organs of activity (hands, legs, mouth, genitals and anus).
+\n\n
+
+He is a pandit (man of knowledge) who speaks what is suitable to the occasion, who renders loving service according to his ability, and who knows the limits of his anger.
+\n\n One single object (a woman) appears in three different ways: to the man who practices austerity it appears as a corpse, to the sensual it appears as a woman, and to the dogs as a lump of flesh.
+\n\n A wise man should not divulge the formula of a medicine which he has well prepared; an act of charity which he has performed; domestic conflicts; private affairs with his wife; poorly prepared food he may have been offered; or slang he may have heard.
+\n\n The cuckoos remain silent for a long time (for several seasons) until they are able to sing sweetly (in the Spring ) so as to give joy to all.
+\n\n We should secure and keep the following: the blessings of meritorious deeds, wealth, grain, the words of the spiritual master, and rare medicines. Otherwise life becomes impossible.
+\n\n
+Eschew (Avoid) wicked company and associate with saintly persons. Acquire virtue day and night, and always meditate on that which is eternal forgetting that which is temporary."
+
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Hindione"
+    tools:showIn="@layout/activity_hindione">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="प्रथम अध्याय"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="150dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textone"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="17sp"
+            android:text="१. तीनो लोको के स्वामी सर्वशक्तिमान भगवान विष्णु  को नमन करते हुए मै एक राज्य के लिए  नीति  शास्त्र  के सिद्धांतों  को कहता हूँ.  मै यह सूत्र अनेक शास्त्रों का आधार ले कर कह रहा हूँ।
+\n\n २. जो व्यक्ति शास्त्रों के सूत्रों का अभ्यास करके ज्ञान ग्रहण करेगा उसे अत्यंत वैभवशाली कर्तव्य के सिद्धांत ज्ञात होगे। उसे इस बात का पता चलेगा कि किन बातों का अनुशरण करना चाहिए और किनका नहीं। उसे अच्छाई और बुराई का भी ज्ञात होगा और अंततः उसे सर्वोत्तम का भी ज्ञान होगा।
+\n\n ३. इसलिए लोगो का भला करने के लिए मै उन बातों को कहूंगा जिनसे लोग सभी चीजों को सही परिपेक्ष्य मे देखेगे।
+\n\n ४. एक पंडित भी घोर कष्ट में आ जाता है यदि वह किसी मुर्ख को उपदेश देता है, यदि वह एक दुष्ट पत्नी का पालन-पोषण करता है या किसी दुखी व्यक्ति के साथ अतयंत घनिष्ठ सम्बन्ध बना लेता है।
+\n\n ५. दुष्ट पत्नी, झूठा मित्र, बदमाश नौकर और सर्प के साथ निवास साक्षात् मृत्यु के समान है।
+\n\n ६. व्यक्ति को आने वाली मुसीबतो से निबटने के लिए धन संचय करना चाहिए। उसे धन-सम्पदा त्यागकर भी पत्नी की सुरक्षा करनी चाहिए। लेकिन यदि आत्मा की सुरक्षा की बात आती है तो उसे धन और पत्नी दोनो को तुक्ष्य समझना चाहिए।
+\n\n ७ .भविष्य में आने वाली मुसीबतो के लिए धन एकत्रित करें। ऐसा ना सोचें की धनवान व्यक्ति को मुसीबत कैसी? जब धन साथ छोड़ता है तो संगठित धन भी तेजी से घटने लगता है।
+\n\n ८.  उस देश मे निवास न करें जहाँ आपकी कोई ईज्जत नहीं हो, जहा आप रोजगार नहीं कमा सकते, जहा आपका कोई मित्र नहीं और जहा आप कोई ज्ञान आर्जित नहीं कर सकते।
+\n\n ९ . ऐसे जगह एक दिन भी निवास न करें जहाँ निम्नलिखित पांच ना हो:
+एक धनवान व्यक्ति ,
+एक ब्राह्मण जो वैदिक शास्त्रों में निपुण हो,
+एक राजा,
+एक नदी ,
+और एक चिकित्सक।
+\n\n १० .  बुद्धिमान व्यक्ति को ऐसे देश में कभी नहीं जाना चाहिए जहाँ :
+रोजगार कमाने का कोई माध्यम ना हो,
+जहा लोगों को किसी बात का भय न हो,
+जहा लोगो को किसी बात की लज्जा न हो,
+जहा लोग बुद्धिमान न हो,
+और जहाँ लोगो की वृत्ति दान धरम करने की ना हो।
+\n\n ११ . नौकर की परीक्षा तब करें जब वह कर्त्तव्य का पालन  न कर रहा हो,
+रिश्तेदार की परीक्षा तब करें जब आप मुसीबत मे घिरें हों,
+मित्र की परीक्षा विपरीत परिस्थितियों मे करें,
+और जब आपका वक्त अच्छा न चल रहा हो तब पत्नी की परीक्षा करे।
+\n\n १२ . अच्छा मित्र वही है जो हमे निम्नलिखित परिस्थितियों में  नहीं त्यागे:
+आवश्यकता पड़ने पर,
+किसी दुर्घटना पड़ने पर,
+जब अकाल पड़ा हो,
+जब युद्ध चल रहा हो,
+जब हमे राजा के दरबार मे जाना पड़े,
+और जब हमे समशान घाट जाना पड़े।
+\n\n १३ . जो व्यक्ति कसी नाशवंत चीज के लिए कभी नाश नहीं होने वाली चीज को छोड़ देता है, तो उसके हाथ से अविनाशी वस्तु तो चली ही जाती है और इसमे कोई संदेह नहीं की नाशवान को भी वह खो देता है।
+\n\n
+१४ . एक बुद्धिमान व्यक्ति को किसी इज्जतदार घर की अविवाहित कन्या से किस वयंग होने के बावजूद भी विवाह करना चाहिए। उसे किसी हीन घर की अत्यंत सुन्दर स्त्री से भी विवाह नहीं करनी चाहिए। शादी-विवाह हमेशा बराबरी के घरो मे ही उिचत होता है।
+\n\n १५ . इन ५ पर कभी विश्वास ना करें :
+१. नदियां,
+२. जिन व्यक्तियों के पास अश्त्र-शस्त्र हों,
+३. नाख़ून और सींग वाले पशु,
+४. औरतें (यहाँ संकेत भोली सूरत की तरफ है, बहने बुरा न माने )
+५. राज घरानो के लोगो पर।
+\n\n १६ . अगर हो सके तो विष मे से भी अमृत निकाल लें,
+यदि सोना गन्दगी में भी पड़ा हो तो उसे उठाये, धोएं और अपनाये,
+निचले कुल मे जन्म लेने वाले से भी सर्वोत्तम ज्ञान ग्रहण करें,
+उसी तरह यदि कोई बदनाम घर की कन्या भी महान गुणो से संपनन है और आपको कोई सीख देती है तो गहण करे।
+\n\n
+१७ .  महिलाओं में पुरुषों कि अपेक्षा:
+भूख दो गुना,
+लज्जा चार गुना,
+साहस छः गुना,
+और काम आठ गुना होती है।"
+
+
+
+            />
+        </RelativeLayout>
+    </ScrollView>
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.example.enchanterswapna.chanakyaniti.Hindiact">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Our App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings1"
+        android:orderInCategory="100"
+        android:title="Share App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="100"
+        android:title="Rate App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings4"
+        android:orderInCategory="100"
+        android:title="Disclaimer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings5"
+        android:orderInCategory="100"
+        android:title="Debt Manager (ऋण प्रबंधक)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings6"
+        android:orderInCategory="100"
+        android:title="Contact To Excel"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings7"
+        android:orderInCategory="100"
+        android:title="Aarti Bhajan and Chalisa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings8"
+        android:orderInCategory="100"
+        android:title="Chanakya Niti Audio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings9"
+        android:orderInCategory="100"
+        android:title="Hanuman Chalisa Audio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings10"
+        android:orderInCategory="100"
+        android:title="Kabir Ke Dohe Audio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings11"
+        android:orderInCategory="100"
+        android:title="Durga Chalisa Audio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings12"
+        android:orderInCategory="100"
+        android:title="Om Jai Jagdish Hare"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings13"
+        android:orderInCategory="100"
+        android:title="Hindi Muhavare(Idioms)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings14"
+        android:orderInCategory="100"
+        android:title="Quotes Collection (12,000)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings15"
+        android:orderInCategory="100"
+        android:title="Rashtriya Gaan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings16"
+        android:orderInCategory="100"
+        android:title="Cheatsheet Android Studio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings17"
+        android:orderInCategory="100"
+        android:title="SQL Tutorial"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings18"
+        android:orderInCategory="100"
+        android:title="Java Tutorial"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings19"
+        android:orderInCategory="100"
+        android:title="C Tutorial"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings20"
+        android:orderInCategory="100"
+        android:title="C++ Tutorial"
+        app:showAsAction="never" />
+
+</menu>

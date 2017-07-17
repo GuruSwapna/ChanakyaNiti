@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.chanakyaniti.Hindieight"
+    tools:showIn="@layout/activity_hindieight">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:src="@drawable/chanakya"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chaneng"
+            android:text="आठवां अध्याय"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff"
+            app:srcCompat="?android:attr/actionModeCopyDrawable"
+
+            android:layout_marginLeft="150dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textone"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17sp"
+                android:text="नीच वर्ग के लोग दौलत चाहते है, मध्यम वर्ग के दौलत और इज्जत, लेकिन उच्च वर्ग के लोग सम्मान चाहते है क्यों की सम्मान ही उच्च लोगो की असली दौलत है।
+\n\n दीपक अँधेरे का भक्षण करता है इसीलिए काला धुआ बनाता है. इसी प्रकार हम जिस प्रकार का अन्न खाते है. माने सात्विक, राजसिक, तामसिक उसी प्रकार के विचार उत्पन्न करते है।
+\n\n हे विद्वान् पुरुष ! अपनी संपत्ति केवल पात्र को ही दे और दूसरो को कभी ना दे. जो जल बादल को समुद्र देता है वह बड़ा मीठा होता है. बादल वर्षा करके वह जल पृथ्वी के सभी चल अचल जीवो को देता है और फिर उसे समुद्र को लौटा देता है।
+\n\n
+विद्वान् लोग जो तत्त्व को जानने वाले है उन्होंने कहा है की मास खाने वाले चांडालो से हजार गुना नीच है. इसलिए ऐसे आदमी से नीच कोई नहीं।
+\n\n शरीर पर मालिश करने के बाद, स्मशान में चिता का धुआ शरीर पर आने के बाद, सम्भोग करने के बाद, दाढ़ी बनाने के बाद जब तक आदमी नहा ना ले वह चांडाल रहता है.
+\n\n जल अपच की दवा है. जल चैतन्य निर्माण करता है, यदि उसे भोजन पच जाने के बाद पीते है. पानी को भोजन के बाद तुरंत पीना विष पिने के समान है।
+\n\n यदि ज्ञान को उपयोग में ना लाया जाए तो वह खो जाता है. आदमी यदि अज्ञानी है तो खो जाता है. सेनापति के बिना सेना खो जाती है. पति के बिना पत्नी खो जाती है।
+\n\n वह आदमी अभागा है जो अपने बुढ़ापे में पत्नी की मृत्यु देखता है. वह भी अभागा है जो अपनी सम्पदा संबंधियों को सौप देता है. वह भी अभागा है जो खाने के लिए दुसरो पर निर्भर है।
+\n\n यह बाते बेकार है. वेद मंत्रो का उच्चारण करना लेकिन निहित यज्ञ कर्मो को ना करना. यज्ञ करना लेकिन बाद में लोगो को दान दे कर तृप्त ना करना. पूर्णता तो भक्ति से ही आती है. भक्ति ही सभी सफलताओ का मूल है।
+\n\n एक संयमित मन के समान कोई तप नहीं. संतोष के समान कोई सुख नहीं. लोभ के समान कोई रोग नहीं. दया के समान कोई गुण नहीं।
+\n\n क्रोध साक्षात् यम है. तृष्णा नरक की और ले जाने वाली वैतरणी है. ज्ञान कामधेनु है. संतोष ही तो नंदनवन है।
+\n\n नीति की उत्तमता ही व्यक्ति के सौंदर्य का गहना है. उत्तम आचरण से व्यक्ति उत्तरोत्तर ऊँचे लोक में जाता है. सफलता ही विद्या का आभूषण है. उचित विनियोग ही संपत्ति का गहना है।
+\n\n निति भ्रष्ट होने से सुन्दरता का नाश होता है. हीन आचरण से अच्छे कुल का नाश होता है. पूर्णता न आने से विद्या का नाश होता है. उचित विनियोग के बिना धन का नाश होता है
+\n\n
+जो जल धरती में समां गया वो शुद्ध है. परिवार को समर्पित पत्नी शुद्ध है. लोगो का कल्याण करने वाला राजा शुद्ध है. वह ब्राह्मण शुद्ध है जो संतुष्ट है।
+\n\n असंतुष्ट ब्राह्मण, संतुष्ट राजा, लज्जा रखने वाली वेश्या, कठोर आचरण करने वाली गृहिणी ये सभी लोग विनाश को प्राप्त होते है।
+\n\n क्या करना उचे कुल का यदि बुद्धिमत्ता ना हो. एक नीच कुल में उत्पन्न होने वाले विद्वान् व्यक्ति का सम्मान देवता भी करते है।
+\n\n
+विद्वान् व्यक्ति लोगो से सम्मान पाता है. विद्वान् उसकी विद्वत्ता के लिए हर जगह सम्मान पाता है. यह बिलकुल सच है की विद्या हर जगह सम्मानित है।
+\n\n जो लोग दिखने में सुन्दर है, जवान है, ऊँचे कुल में पैदा हुए है, वो बेकार है यदि उनके पास विद्या नहीं है. वो तो पलाश के फूल के समान है जो दिखते तो अच्छे है पर महकते नहीं।
+\n\n यह धरती उन लोगो के भार से दबी जा रही है, जो मास खाते है, दारू पीते है, बेवकूफ है, वे सब तो आदमी होते हुए पशु ही है।
+\n\n उस यज्ञ के समान कोई शत्रु नहीं जिसके उपरांत लोगो को बड़े पैमाने पर भोजन ना कराया जाए. ऐसा यज्ञ राज्यों को ख़तम कर देता है. यदि पुरोहित यज्ञ में ठीक से उच्चारण ना करे तो यज्ञ उसे ख़तम कर देता है. और यदि यजमान लोगो को दान एवं भेटवस्तू ना दे तो वह भी यज्ञ द्वारा ख़तम हो जाता है।"
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/but1"
+        android:src="@drawable/arrowright"
+
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/arrowleft"
+        android:id="@+id/but2"
+        />
+
+
+</RelativeLayout>
